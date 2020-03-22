@@ -1,0 +1,14 @@
+﻿AggregateRoot为聚合根，Entity为聚合
+
+其中继承AggregateRoot的实体可以增删改查，而继承Entity的只能查询
+
+其中继承Adds不仅拥有AggregateRoot的所有特性还额外增加AddTime以及AddAccountId属性
+
+其中继承AddAndUpdate不仅拥有Adds的所有特性还额外增加EditTime以及EditAccountId属性
+
+其中继承Fulls不仅拥有AddAndUpdate的所有特性还额外增加DelTime以及DelAccountId以及IsDel属性
+
+数据库迁移命令：
+dotnet ef migrations add init
+
+dotnet ef database update

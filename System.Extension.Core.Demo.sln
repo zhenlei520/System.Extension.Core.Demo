@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.AspNetCore", "Autof
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Demo", "Autofac\Autofac.Demo\Autofac.Demo.csproj", "{075F3663-7B6C-4478-8A33-1557260AE77B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.MySql", "Autofac\Autofac.MySql\Autofac.MySql.csproj", "{AF006F2F-A500-41BD-B4A1-E18DE39442C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F0CAB873-A4A6-4C41-918A-287B6C4B8C21} = {21AB9D98-23CD-4906-8E08-037042A63818}
 		{075F3663-7B6C-4478-8A33-1557260AE77B} = {21AB9D98-23CD-4906-8E08-037042A63818}
+		{AF006F2F-A500-41BD-B4A1-E18DE39442C8} = {21AB9D98-23CD-4906-8E08-037042A63818}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F0CAB873-A4A6-4C41-918A-287B6C4B8C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +27,9 @@ Global
 		{075F3663-7B6C-4478-8A33-1557260AE77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{075F3663-7B6C-4478-8A33-1557260AE77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{075F3663-7B6C-4478-8A33-1557260AE77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF006F2F-A500-41BD-B4A1-E18DE39442C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF006F2F-A500-41BD-B4A1-E18DE39442C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF006F2F-A500-41BD-B4A1-E18DE39442C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF006F2F-A500-41BD-B4A1-E18DE39442C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
