@@ -4,6 +4,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autofac", "Autofac", "{21AB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Demo", "Autofac\Autofac\Autofac.Demo\Autofac.Demo.csproj", "{E11D5519-C1CA-4E88-B5EE-B63C17B80651}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.AspNetCore", "Autofac\Autofac\Autofac.AspNetCore\Autofac.AspNetCore.csproj", "{3A642103-CC19-4388-B970-7D0839F8B8C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -11,11 +13,16 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E11D5519-C1CA-4E88-B5EE-B63C17B80651} = {21AB9D98-23CD-4906-8E08-037042A63818}
+		{3A642103-CC19-4388-B970-7D0839F8B8C0} = {21AB9D98-23CD-4906-8E08-037042A63818}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{E11D5519-C1CA-4E88-B5EE-B63C17B80651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E11D5519-C1CA-4E88-B5EE-B63C17B80651}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E11D5519-C1CA-4E88-B5EE-B63C17B80651}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E11D5519-C1CA-4E88-B5EE-B63C17B80651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A642103-CC19-4388-B970-7D0839F8B8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A642103-CC19-4388-B970-7D0839F8B8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A642103-CC19-4388-B970-7D0839F8B8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A642103-CC19-4388-B970-7D0839F8B8C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
