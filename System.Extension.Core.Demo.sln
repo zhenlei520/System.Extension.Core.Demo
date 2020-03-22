@@ -2,9 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Autofac", "Autofac", "{21AB9D98-23CD-4906-8E08-037042A63818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Demo", "Autofac\Autofac\Autofac.Demo\Autofac.Demo.csproj", "{E11D5519-C1CA-4E88-B5EE-B63C17B80651}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.AspNetCore", "Autofac\Autofac.AspNetCore\Autofac.AspNetCore.csproj", "{F0CAB873-A4A6-4C41-918A-287B6C4B8C21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.AspNetCore", "Autofac\Autofac\Autofac.AspNetCore\Autofac.AspNetCore.csproj", "{3A642103-CC19-4388-B970-7D0839F8B8C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autofac.Demo", "Autofac\Autofac.Demo\Autofac.Demo.csproj", "{075F3663-7B6C-4478-8A33-1557260AE77B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,17 +12,17 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E11D5519-C1CA-4E88-B5EE-B63C17B80651} = {21AB9D98-23CD-4906-8E08-037042A63818}
-		{3A642103-CC19-4388-B970-7D0839F8B8C0} = {21AB9D98-23CD-4906-8E08-037042A63818}
+		{F0CAB873-A4A6-4C41-918A-287B6C4B8C21} = {21AB9D98-23CD-4906-8E08-037042A63818}
+		{075F3663-7B6C-4478-8A33-1557260AE77B} = {21AB9D98-23CD-4906-8E08-037042A63818}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E11D5519-C1CA-4E88-B5EE-B63C17B80651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E11D5519-C1CA-4E88-B5EE-B63C17B80651}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E11D5519-C1CA-4E88-B5EE-B63C17B80651}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E11D5519-C1CA-4E88-B5EE-B63C17B80651}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3A642103-CC19-4388-B970-7D0839F8B8C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3A642103-CC19-4388-B970-7D0839F8B8C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3A642103-CC19-4388-B970-7D0839F8B8C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3A642103-CC19-4388-B970-7D0839F8B8C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0CAB873-A4A6-4C41-918A-287B6C4B8C21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CAB873-A4A6-4C41-918A-287B6C4B8C21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CAB873-A4A6-4C41-918A-287B6C4B8C21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CAB873-A4A6-4C41-918A-287B6C4B8C21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075F3663-7B6C-4478-8A33-1557260AE77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075F3663-7B6C-4478-8A33-1557260AE77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075F3663-7B6C-4478-8A33-1557260AE77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075F3663-7B6C-4478-8A33-1557260AE77B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
