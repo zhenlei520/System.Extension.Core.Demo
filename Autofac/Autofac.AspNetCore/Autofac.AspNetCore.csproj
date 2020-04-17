@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="EInfrastructure.Core.AutoFac.AspNetCore" Version="2.0.1-beta-015" />
+      <PackageReference Include="EInfrastructure.Core.AutoFac.AspNetCore" Version="2.0.1-beta-022" />
     </ItemGroup>
 
     <ItemGroup>

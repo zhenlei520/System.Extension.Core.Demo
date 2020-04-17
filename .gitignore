@@ -1,5 +1,5 @@
 /.idea/
-/Autofac/*/*/bin/
-/Autofac/*/*/obj/
-/Autofac/*/bin/
-/Autofac/*/obj/
+/*/*/*/bin/
+/*/*/*/obj/
+/*/*/bin/
+/*/*/obj/
